@@ -1,0 +1,10 @@
+version: '2.2'
+
+services:
+  group_e2e_c:
+    image: chatster/api-group-e2e-c
+    build: .
+    container_name: group_e2e_c
+    ports:
+      - 6000:6000
+      - 2970:2970
